@@ -1,0 +1,29 @@
+.form { //сама форма в другом блоке застилизована main-form
+    padding: 100px 0 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    &__address {
+        width: 566px;
+        min-height: 616px;
+        background-color: $main-color;
+        margin-top: 36px;
+        margin-bottom: 0;
+        padding: 69px 0 0 67px;
+        &-item {
+            margin-bottom: 20px;
+        }
+        &-descr {
+            color: #ffffff;
+            font-size: 18px
+        }
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+}

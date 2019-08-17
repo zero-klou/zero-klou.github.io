@@ -1,0 +1,28 @@
+.text {
+    &_about {
+        max-width: 726px;
+        margin-top: 100px;
+    }
+    &_small {
+        max-width: 268px;
+        margin-right: 30px;
+    }
+    &_medium {
+        .text__descr {
+            max-width: 292px;
+        }
+    }
+    &_white {
+        color: #ffffff;
+    }
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    &__descr {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+}

@@ -1,0 +1,9 @@
+.process {
+    padding-bottom: 100px;
+    &__wrapper {
+        margin-top: 100px;
+        width: 100%;
+        height: 430px;
+        background: url(../img/bg/bg-2.png) center (center / cover) no-repeat;
+    }
+}

@@ -1,0 +1,46 @@
+@import 'base/_fonts';
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'libs/_bootstrap-reboot.min';
+@import 'libs/_slick';
+@import 'blocks/_header';
+@import 'blocks/_promo';
+@import 'blocks/_button';
+@import 'blocks/_about';
+@import 'blocks/_text';
+@import 'blocks/_carousel';
+@import 'blocks/_we-doing';
+@import 'blocks/_examples';
+@import 'blocks/_just-slider';
+@import 'blocks/_process';
+@import 'blocks/_sale';
+@import 'blocks/_main-form';
+@import 'blocks/_form';
+@import 'blocks/_advantages';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

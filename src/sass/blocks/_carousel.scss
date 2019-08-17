@@ -1,0 +1,46 @@
+.carousel {
+    &_about {
+        max-width: 437px;
+    }
+    &_many {
+        max-width: 891px;
+    }
+    &_too-many {
+        max-width: 97%;
+        margin-top: 60px;   
+    }
+    &__item {
+        position: relative;
+    }
+    &__arrow {
+        width: 69px;
+        height: 51px;
+        background-color: $sub-color;
+        border: none;
+        text-align: center;
+        font-size: 42px;
+        line-height: 0;
+        padding-bottom: 5px;
+        display: block;
+        color: #000;
+        position: absolute;
+        right: -142px;
+        &:last-child {
+            margin-top: 5px;
+            bottom: 0;
+        }
+        &:hover {
+            background-color: $main-color;
+            color: #ffffff;
+        }
+        &:active, &:focus {
+            outline: none;
+        }
+        &_left {
+            bottom: 56px;
+        }
+        &_margin-less {
+            right: -104px;
+        }
+    }
+}

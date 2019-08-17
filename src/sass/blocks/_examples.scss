@@ -1,0 +1,22 @@
+.examples {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__images {
+        max-width: 808px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img:nth-child(3), img:nth-child(4) {
+            margin-top: 24px;
+        }
+    }
+    &_reverse {
+        margin-top: 150px;
+        .examples__images {
+            order: 1;
+        }
+    }
+}

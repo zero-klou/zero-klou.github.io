@@ -1,0 +1,30 @@
+.promo {
+    background: url(../img/bg/bg-1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 819px;
+    padding-bottom: 151px;
+    &__block {
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 565px;
+        min-height: 353px;
+        margin-top: 250px;
+        color: #ffffff;
+        padding: 30px 64px 30px 32px;
+    }
+    &__title {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 300;
+        margin-bottom: 16px;
+    }
+    &__refs {
+        display: block;
+        margin-bottom: 20px;
+        &:nth-child(4) {
+            margin-bottom: 33px;
+        }
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
