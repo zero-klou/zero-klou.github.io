@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.carousel_about').slick({
-        infinite: true,
+        infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         speed: 1200,
@@ -19,7 +19,7 @@ $(document).ready(function(){
     });
 
     $('.carousel_many').slick({
-        infinite: true,
+        infinite: false,
         slidesToShow: 3,
         slidesToScroll: 1,
         speed: 1200,
@@ -46,7 +46,7 @@ $(document).ready(function(){
     });
 
     $('.carousel_too-many').slick({
-        infinite: true,
+        infinite: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         speed: 1200,
