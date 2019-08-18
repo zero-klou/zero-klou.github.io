@@ -101,6 +101,6 @@ $(document).ready(function(){
     });
 
     $('#btn-nav').on('click', function() {
-        scrollTo(0, 7600);
+        scrollTo(0, $('#contacts').offset().top);  
     });
 });
