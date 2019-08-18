@@ -28,3 +28,30 @@
         }
     }
 }
+
+@media (max-width: 1439px) {
+    .promo {
+        &__block {
+            margin: 250px auto 0;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .promo {
+        &__refs:hover {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        background: #fff;
+        min-height: 0;
+        padding: 0;
+        &__block {
+            display: none;
+        }
+    }
+}

@@ -4,3 +4,11 @@
         display: flex;
     }
 }
+
+@media (max-width: 767px) {
+    .we-doing {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+}

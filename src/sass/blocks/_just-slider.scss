@@ -1,3 +1,14 @@
 .just-slider {
     padding: 100px 0;
 }
+
+@media (max-width: 767px) {
+    .just-slider {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        &_mb50 {
+            padding-bottom: 50px;
+            padding-top: 30px;
+        }
+    }
+}

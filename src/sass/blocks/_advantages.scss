@@ -26,3 +26,16 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .advantages {
+        padding-bottom: 30px;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin-top: 30px;
+            width: 100%;
+        }
+    }
+}

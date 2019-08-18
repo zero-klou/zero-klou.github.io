@@ -7,3 +7,21 @@
         background: url(../img/bg/bg-2.png) center (center / cover) no-repeat;
     }
 }
+
+@media (max-width: 1439px) {
+    .process {
+        &__wrapper {
+            background-size: contain;
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .process {
+        padding-bottom: 30px;
+        &__wrapper {
+            height: 100px;
+        }
+    }
+}

@@ -31,3 +31,30 @@
         }
     }
 }
+
+@media (max-width: 1023px) {
+    .sale {
+        padding-left: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sale {
+        padding-left: 9px;
+        padding-right: 9px;
+        .text__title {
+            font-size: 15px;
+        }
+        &__text {
+            max-width: 100%;
+            justify-content: space-around;
+        }
+        &__item-descr {
+            font-size: 10px;
+        }
+        &__icon {
+            width: 70px;
+            height: 58px;
+        }
+    }
+}

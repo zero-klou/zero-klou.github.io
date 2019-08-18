@@ -17,9 +17,13 @@
 @import 'blocks/_main-form';
 @import 'blocks/_form';
 @import 'blocks/_advantages';
+@import 'blocks/_map';
+@import 'blocks/_footer';
+@import 'blocks/_overlay';
 
 * {
     font-family: 'Roboto', sans-serif;
+    transition: 0.6s all;
 }
 
 body {
@@ -42,5 +46,17 @@ a {
     &:hover {
         color: #ffffff;
         text-decoration: none;
+    }
+}
+
+@media (max-width: 1439px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        max-width: 100%;
     }
 }
