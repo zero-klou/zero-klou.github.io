@@ -40,6 +40,14 @@ html {
     margin: 0 auto;
 }
 
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    fill: $main-color;
+    cursor: pointer;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;

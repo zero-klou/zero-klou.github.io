@@ -18,7 +18,7 @@
         &:valid {
             outline: 1px solid $main-color;
         }
-        &:invalid {
+        &:invalid:not(:placeholder-shown) {
             outline: 1px solid red;
         }
     }

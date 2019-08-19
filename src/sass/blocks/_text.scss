@@ -34,11 +34,13 @@
         }
         &_small {
             max-width: 468px; 
+            margin-left: 20px;
         }
         &_medium {
             .text__descr {
                 max-width: 467px;
             }
+            margin-left: 20px;
         }
     }
     .just-slider .text__title {
@@ -77,7 +79,6 @@
         }
         &_small {
             max-width: 90%; 
-            order: 1;
             margin: 15px auto 0;
         }
         &_medium {

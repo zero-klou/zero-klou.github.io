@@ -103,4 +103,8 @@ $(document).ready(function(){
     $('#btn-nav').on('click', function() {
         scrollTo(0, $('#contacts').offset().top);  
     });
+
+    $('#up').on('click', function() {
+        scrollTo(0, 0);
+    });
 });

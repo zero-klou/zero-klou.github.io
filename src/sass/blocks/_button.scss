@@ -15,6 +15,9 @@
         margin: 62px 0 0;
         font-size: 24px;
         font-weight: 700;
+        &:focus, &:active {
+            outline: none;
+        }
     }
     &_slider, &_form {
         width: 214px;
@@ -27,6 +30,9 @@
         position: absolute;
         bottom: 25px;
         left: 31px;
+        &:focus, &:active {
+            outline: none;
+        }
     }
 }
 

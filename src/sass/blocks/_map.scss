@@ -16,5 +16,14 @@
 @media (max-width: 767px) {
     .map {
         padding-bottom: 0;
+        &__label {
+            font-size: 20px;
+        }
+        iframe {
+            width: 95%;
+            height: 240px;
+            margin: 0 auto;
+            display: block;
+        }
     }
 }
