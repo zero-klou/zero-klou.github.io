@@ -16,14 +16,16 @@
             margin-bottom: 100px;
         }
         &:focus {
-            outline: 1px solid #93550D;
+            outline-offset: 0;
+            outline: 2px solid #93550D;
+            border: none;
         }
         &:valid {
-            outline: 1px solid $main-color;
+            outline: 2px solid $main-color;
             background-color: #fff;
         }
         &:invalid:not(:placeholder-shown) {
-            outline: 1px solid red;
+            outline: 2px solid red;
         }
         &:-webkit-autofill,
         &:-webkit-autofill:hover, 
