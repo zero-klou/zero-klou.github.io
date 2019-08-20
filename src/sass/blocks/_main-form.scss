@@ -15,12 +15,23 @@
         &:nth-child(3) {
             margin-bottom: 100px;
         }
+        &:focus {
+            outline: 1px solid #93550D;
+        }
         &:valid {
             outline: 1px solid $main-color;
+            background-color: #fff;
         }
         &:invalid:not(:placeholder-shown) {
             outline: 1px solid red;
         }
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover, 
+        &:-webkit-autofill:focus, 
+        &:-webkit-autofill:active  {
+            -webkit-box-shadow: 0 0 0 30px white inset !important;
+            box-shadow: 0 0 0 30px white inset !important;
+}
     }
     #check {
         width: 29px;

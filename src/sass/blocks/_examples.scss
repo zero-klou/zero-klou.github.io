@@ -5,7 +5,7 @@
         justify-content: space-between;
     }
     &__images {
-        max-width: 808px;
+        max-width: 750px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -24,13 +24,13 @@
 @media (max-width: 1439px) {
     .examples {
         &_reverse {
-            margin-top: 30px;
+            margin-top: 30px
         }
         &__wrapper {
             justify-content: flex-start;
         }
         &__images {
-            justify-content: flex-start;
+            justify-content: center;
             img {
                 max-width: 300px;
                 &:nth-child(2), &:nth-child(4) {
