@@ -303,9 +303,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function countBalance(balance) { //проверяет счета и записывает новый баланс, а также обновляет процент
         let sum = 0;
 
-        bills.forEach(function(item) {
-            sum += parseFloat(item.textContent);
-        });
+        sum += parseFloat(bills[1].textContent);
         balance.textContent = sum + " руб";
         countPercent(earn, waste, balance);
     }
