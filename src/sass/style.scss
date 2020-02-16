@@ -87,7 +87,7 @@
 }
 .text-title {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 15pt;
     color: #41424E;
     margin: 0;
     margin-bottom: 30px;
@@ -98,7 +98,7 @@
 .text {
     color: #000;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 10pt;
     &-ml30 {
         margin-left: 30px;
     }
@@ -109,6 +109,7 @@
 .content-table {
     border-collapse: collapse;
     margin-bottom: 60px;
+    font-size: 10pt;
     td, th {
         padding: 10px;
     }
@@ -145,6 +146,7 @@
         text-decoration: none;
         color: grey;
         display: block;
+        font-size: 10pt;
         &:hover {
             color: #0087FF;
         }
@@ -154,8 +156,7 @@
     }
 }
 .content-image {
-    display: block;
-    max-width: 50%;
+    max-width: 49%;
 }
 .home {
     position: fixed;
