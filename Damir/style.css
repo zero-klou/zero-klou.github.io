@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url(./qd01jYLlA2w.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 363px;
+    padding: 130px;
+}
+.header__title, .header__title-link {
+    font-size: 80px;
+    color: #8EE633;
+    font-weight: bold;
+    transform: translateX(-7px);
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    margin-top: 85px;
+}
+.divider {
+    height: 54px;
+    background-color: #E8FAD6;
+}
+.section {
+    background-color: #363738;
+    padding: 48px;
+}
+.section__title {
+    color: #E8FAD6;
+    font-size: 30px;
+}
+.section__subtitle {
+    font-size: 26px;
+    color: #8EE633;
+    margin-bottom: 20px;
+}
+.section__text {
+    font-size: 18px;
+    color: #fff;
+}
+.section__news {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
+a:active {
+    color: #fff;
+}
+.just-ul {
+    padding-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* <div class="section__news">
+    <h3 class="section__subtitle">Lorem ipsum dolor sit.</h3>
+    <div class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis qui dolores soluta recusandae, accusamus autem praesentium eum nulla sunt placeat expedita vel cumque laboriosam aliquid molestiae eius rem eveniet voluptatum.
+    Vero, rerum! Totam, necessitatibus. Quisquam natus rem cum reiciendis quia eaque ea fugit, veniam veritatis delectus velit laborum qui incidunt odit aut! Nulla facilis autem neque hic, dolore recusandae similique!
+    Laboriosam, soluta? Excepturi rerum libero molestias nihil placeat consectetur veritatis ab eum non voluptate ex accusantium magnam cupiditate unde culpa quidem sed animi ratione nam, hic optio. Illum, saepe dicta.
+    Quae laudantium cupiditate ullam dicta necessitatibus voluptate quasi, dolorum possimus porro maiores cumque quas, corrupti at tenetur! Quibusdam accusamus odit error eos aliquid aperiam assumenda nostrum, optio excepturi temporibus amet!
+    Laborum repellendus vero eius voluptates laboriosam, aperiam sint reprehenderit! Temporibus eum cum iste aut, pariatur fugiat eos numquam delectus culpa nobis facilis asperiores alias veritatis recusandae. Fuga sapiente facere at?</div>
+</div> */
