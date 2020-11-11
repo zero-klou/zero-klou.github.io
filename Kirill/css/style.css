@@ -1,0 +1,164 @@
+* {
+    transition: all 0.5s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+a {
+    color: rgb(106,55,135);
+    font-size: 15px;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    font-family: 'A La Russ Regular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    width: 100%;
+}
+
+.box {
+    background-color: inherit;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding: 15px;
+    background-color: rgba(255,205,66,0.17);
+}
+
+.wrapper__text {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(106,55,135,0.5);
+    text-align: center;
+}
+
+.wrapper__posts {
+    border-radius: 0%;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.header {
+    width: 376px;
+    height: 100px;
+    background-color: rgba(106,55,135,0.5);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 100%; */
+}
+
+.header img {
+    width: 70%;
+}
+
+.main_content {
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.left_column {
+    width: 380px;;
+}
+
+.photo {
+    width: 100%;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.just_text {
+    color: #fff;
+    font-size: 20px;
+}
+
+.friends {
+    margin-top: 10px;
+}
+
+.friends__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200px;
+    align-content: space-around;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.item {
+    width: 80px;
+    text-align: center;
+}
+
+.friend_photo {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.friend_photo img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.right_column {
+    width: 760px;;
+    margin-left: 15px;
+}
+
+.name_block {
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.name {
+    font-size: 35px;
+}
+.status {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.status span {
+    color: #fff;
+}
+
+.sub {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.post__img img {
+    width: 100%;
+}
+.likecomm {
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+}
+.post {
+    margin-top: 20px;
+}

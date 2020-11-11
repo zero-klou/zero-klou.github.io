@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'A La Russ Regular';
+    src: url('./../fonts/ALaRuss.eot');
+    src: url('./../fonts/ALaRuss.eot?#iefix') format('embedded-opentype'),
+    url('./../fonts/ALaRuss.woff') format('woff'),
+    url('./../fonts/ALaRuss.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
